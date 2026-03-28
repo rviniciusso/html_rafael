@@ -1,0 +1,57 @@
+#header {
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+.blateral {
+    background-color: rgb(255, 127, 127);
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    text-align: justify;
+    width: 10%;
+    height: 1080px;
+    position: fixed;
+    display: block;
+    clear: both;
+}
+
+#navegacao {
+    background-color:aquamarine ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px black solid;
+    position: fixed;
+    display: block;
+    width: 100%;
+    margin-top: 150px;
+    clear: both;
+}
+
+.conteudo{
+    height: 300px;
+    width: 1690px;
+    background-color: brown;
+    float: left;
+    clear: both;
+    margin-left: 200px;
+    padding-left: 30px;
+}
+#rodape {
+    height: 200px;
+    width: 100%;
+    background-color:aquamarine;
+    text-align: center;
+    clear: both;
+}
+
+body {
+    margin: 0;
+}
