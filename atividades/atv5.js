@@ -4,9 +4,9 @@ let tarefa = [
     {nome: 'estudar js'}
 ]
 
-// tarefa.map((item, index)=>{
-//     console.log(index,item)
-// })
+tarefa.map((item, index)=>{
+    console.log(index,item)
+})
 
 const removertarefa = (nome) => {
     const indice = tarefa.findIndex(t => t.nome === nome)
