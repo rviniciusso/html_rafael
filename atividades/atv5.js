@@ -11,11 +11,13 @@ tarefa.map((item, index)=>{
 const removertarefa = (nome) => {
     const indice = tarefa.findIndex(t => t.nome === nome)
 
-    console.log(indice)
+    console.log("")
     
     return tarefa.splice(indice, 1)
     
 }
 removertarefa("estudar python")
-console.log(tarefa)
+tarefa.map((item, index)=>{
+    console.log(index,item)
+})
 
